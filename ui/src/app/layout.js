@@ -23,10 +23,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="p-4">
         <nav className="mb-4">
-          <Link href="/" className="mr-4 text-blue-500">
+          <Link href={"/"} className="mr-4 text-blue-500">
             Leaderboard
           </Link>
-          <Link href="/personal" className="text-blue-500">
+          <Link href={"/personal"} className="text-blue-500">
             Your Todos
           </Link>
         </nav>
